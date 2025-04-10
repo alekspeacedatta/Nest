@@ -338,16 +338,17 @@ main{
     align-items: flex-start;
     gap: 24px;
     aside{
-    display: flex;
-    flex-direction: column;
-    gap: 30px;
-    padding-bottom: 175px;
-        h5{
-            position: relative;
-            font-size: var(--fs-h5);
-            color: var(--heading-color);
-            border-bottom: 3px solid var(--input-border-color);
-            padding-bottom: 10px;
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        padding-bottom: 175px;
+            h5{
+                position: relative;
+                font-size: var(--fs-h5);
+                color: var(--heading-color);
+                border-bottom: 3px solid var(--input-border-color);
+                padding-bottom: 10px;
+            }
         }
         h5::after{
             content: "";
