@@ -1,0 +1,22 @@
+--heading-color: #253D4E;
+--basic-text-color: #7E7E7E;
+--product-category: #ADADAD;
+--product-company-and-rating: #B6B6B6;
+
+--accent-color-green: #3BB77E;
+--accent-color-blue: #67BCEE;
+	
+--accent-border-color: #BCE3C9;
+
+--filter-text-color: #687188;
+
+--input-text-color: #BCE3C9
+--input-border-color: #ECECEC;
+
+
+h1 - 72px, 4.5rem
+h2 - 48px, 3rem
+h3 - 40px, 2.5rem
+h4 - 32px, 2rem
+h5 - 24px. 1.5rem
+h6 - 16px, 1rem
