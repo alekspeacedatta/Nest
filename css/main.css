@@ -567,6 +567,24 @@ main{
                     }
                 }
             }
+            .products-container{
+                .product{
+                    img{
+
+                    }
+                    .product-content{
+                        .product-heading{
+
+                        }
+                        .product-info{
+
+                        }
+                        .product-price{
+                            
+                        }
+                    }
+                }
+            }
         }
         .deals-of-the-day{
             display: flex;
