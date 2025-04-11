@@ -77,10 +77,13 @@
             }
         }
     }
+    .top-trending-product{
+        display: flex;
+    }
     .newsttler{
         width: 696px;
         margin: 0 auto;
-        padding-bottom: 50px;
+        padding-bottom: 484px;
         .newsttler-content{
             height: 417px;
             align-items: center;
@@ -101,6 +104,10 @@
                 height: 151px;
             }
         }
+    }
+    .featured-boxes-container{
+        display: flex;
+
     }
     footer{
         width: 696px;
