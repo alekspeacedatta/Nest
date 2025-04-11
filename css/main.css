@@ -349,15 +349,15 @@ main{
                 border-bottom: 3px solid var(--input-border-color);
                 padding-bottom: 10px;
             }
-        }
-        h5::after{
-            content: "";
-            position: absolute;
-            width: 80px;
-            top: 37px;
-            left: 0;
-            height: 3px;
-            background-color: var(--accent-light-green);
+            h5::after{
+                content: "";
+                position: absolute;
+                width: 80px;
+                top: 37px;
+                left: 0;
+                height: 3px;
+                background-color: var(--accent-light-green);
+            }
         }
         .aside-box{
             width: 298px;
