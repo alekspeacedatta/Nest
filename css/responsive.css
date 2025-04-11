@@ -1,0 +1,125 @@
+@media (max-width: 768px) {
+    header{
+        .header-content{
+            .header-top{
+                display: none;
+            }
+            .header-main{
+                .header-main-content{
+                    width: 696px;
+                    .burger-menu-button{
+                        display: block;
+                    }
+                    .search-bar{
+                        display: none;
+                    }
+                    .header-location{
+                        display: none;
+                    }
+                    .header-action{
+                        li{
+                            a{
+                                display: none;
+                            }
+                        }
+                        .resp-li{
+                            display: none;
+                        }
+                    }
+                }
+            }
+            .header-nav{
+                display: none;
+            }
+        }
+    }
+    main{
+        width: 696px;
+        margin: 0 auto;
+        aside{
+            display: none;
+        }
+        .main-column{
+            .hero-section{
+                width: 696px;
+                .hero-section-text{
+                    width: 395px;
+                    section{
+                        h1{
+                            font-size: 46px;
+                        }
+                        h5{
+                            font-size: 22px;
+                        }
+                    }
+                }
+            }
+            .featured-categories-container{
+                display: flex;
+            }
+            .product-section{
+                .product-nav{
+                    flex-direction: column;
+                    align-items: flex-start;
+                    /* width: 696px;
+                    margin: 0 auto; */
+                    h3{
+                        font-size: 28px;
+                    }
+                    nav{
+                        li{
+                            a{
+                                font-size: 14px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .newsttler{
+        width: 696px;
+        margin: 0 auto;
+        padding-bottom: 50px;
+        .newsttler-content{
+            height: 417px;
+            align-items: center;
+            position: relative;
+            .newsttler-text{
+                h3{
+                    font-size: 40px;
+                    p{
+                        font-size: 18px;
+                    }
+                }
+            }
+            img{
+                position: absolute;
+                bottom: 0;
+                right: 45px;
+                width: 278px;
+                height: 151px;
+            }
+        }
+    }
+    footer{
+        width: 696px;
+        padding-top: 50px;
+        .footer-info{
+            padding-top: 20px;
+            .social-media{
+                .links{
+                    justify-content: flex-end;
+                }
+            }
+            .contact{
+                display: none;
+            }
+        }
+    }
+    .email{
+        button{
+            font-size: 16px;
+        }
+    }
+}
