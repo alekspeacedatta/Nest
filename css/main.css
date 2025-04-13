@@ -665,7 +665,7 @@ main{
                     }
                 }
             }
-        .deals-of-the-day{
+        /* .deals-of-the-day{
             display: flex;
             flex-direction: column;
             .deals-of-the-day-heading{
@@ -683,8 +683,8 @@ main{
                     color: var(--accent-color-green);
                 }
             }
-        }
-        .shop-by-categories{
+        } */
+        /* .shop-by-categories{
             display: flex;
             flex-direction: column;
             .shop-by-categories-heading{
@@ -722,11 +722,164 @@ main{
                     }
                 }
             }
+        } */
+    }
+}
+.deals-of-day{
+    padding-bottom: 156px;
+    .deals-of-day-content{
+        display: flex;
+        flex-direction: column;
+        gap: 43px;
+        width: 696px;
+        margin: 0 auto;
+        .deals-of-day-heading{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            h4{
+                font-size: var(--fs-h4);
+                color: var(--heading-color);
+            }
+            h6{
+                font-size: var(--fs-h6);
+                color: var(--basic-text-color);
+            }
+        }
+        .deals-of-day-boxes-container{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            gap: 24px;
+            .deal-of-day{
+                width: 336px;
+                height: 297px;
+                border-radius: 15px;
+                position: relative;
+                background-image: url(../images/deals-of-day/first.png);
+                background-size: 100%;
+                background-position: center;
+                .countdown{
+                    display: flex;
+                    align-items: center;
+                    gap: 4px;
+                    position: absolute;
+                    top: 130px;
+                    left: 50px;
+                    .time{
+                        display: flex;
+                        flex-direction: column;
+                        align-items: center;
+                        justify-content: center;
+                        width: 54px;
+                        height: 65px;
+                        border-radius: 4px;
+                        border: none;
+                        background-color: white;
+                        p{
+                            font-size: 20px;
+                            color: var(--accent-color-green);
+                        }
+                        h6{
+                            font-size: var(--fs-h6);
+                            color: var(--basic-text-color);
+                        }
+                    }
+                }
+                .deal-of-day-info{
+                    display: flex;
+                    justify-content: center;
+                    flex-direction: column;
+                    position: absolute;
+                    top: 210px;
+                    left: 10px;
+                    gap: 24px;
+                    width: 315px;
+                    height: 192px;
+                    border-radius: 10px;
+                    border: none;
+                    background-color: white;
+                    box-shadow: 1px 1px 1px 1px rgb(0 0 0 / 12%);
+                    .deal-of-day-info-content{
+                        width: 250px;
+                        margin: 0 auto;
+                        .info-top-content{
+                            display: flex;
+                            flex-direction: column;
+                            gap: 10px;
+                            width: 230px;
+                            h6{
+                                font-size: var(--fs-h6);
+                                color: var(--heading-color);
+                            }
+                            .manufacturer{
+                                display: flex;
+                                flex-direction: column;
+                                gap: 10px;                            
+                                .rating{
+                                    display: flex;
+                                    align-items: center;
+                                    gap: 30px;
+                                    i{
+                                        color: #fdc040;
+                                    }
+                                    span{
+                                        font-size: 14px;
+                                        color: var(--basic-text-color);
+                                    }
+                                }
+                                p{
+                                    font-weight: bolder;
+                                    font-size: 14px;
+                                    color: var(--basic-text-color);
+                                    span{
+                                        color: var(--accent-color-green);
+                                    }
+                                }
+                            }
+                        }
+                        .price{
+                            display: flex;
+                            align-items: center;
+                            gap: 70px;
+                            p{
+                                display: flex;
+                                align-items: center;
+                                gap: 10px;
+                                font-weight: bolder;
+                                font-size: 18px;
+                                color: var(--accent-color-green);
+                                span{
+                                    font-size: 14px;
+                                    text-decoration: line-through;
+                                    color: var(--basic-text-color);
+                                }
+                            }
+                            button{
+                                width: 84px;
+                                height: 36px;
+                                border-radius: 4px;
+                                border: none;
+                                outline: none;
+                                cursor: pointer;
+                                color: var(--accent-color-green);
+                                background-color: #DEF9EC;
+                                i{
+                                    color: var(--accent-color-green);
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+            .second-box{
+                background-image: url(../images/deals-of-day/second.png);
+            }
         }
     }
 }
 .top-trending-product{
-    width: 720px;
+    width: 696px;
     margin: 0 auto;
     display: none;
     align-items: center;
