@@ -726,6 +726,7 @@ main{
     }
 }
 .deals-of-day{
+    display: none;
     padding-bottom: 156px;
     .deals-of-day-content{
         display: flex;

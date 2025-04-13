@@ -77,6 +77,9 @@
             }
         }
     }
+    .deals-of-day{
+        display: block;
+    }
     .top-trending-product{
         display: flex;
     }
