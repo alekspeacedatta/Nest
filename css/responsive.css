@@ -339,6 +339,7 @@
         }
     }
     footer{
-        width: auto;
+        width: 366px;
+        margin: 0 auto;
     }
 }
