@@ -286,7 +286,7 @@
     .top-trending-product{
         flex-direction: column;
         width: 366px;
-        margin: 0 auto;
+        margin: 0 12px;
         gap: 10px;
         .top-seling{
             .top-seling-products-list{
@@ -303,6 +303,7 @@
         width: 366px;
         padding-top: 50px;
         padding-bottom: 300px;
+        margin: 0 12px;
         .newsttler-content{
             height: 266px;
             img{
@@ -328,8 +329,9 @@
         width: 326px;
     }
     .featured-boxes-container{
-        width: auto;
+        width: 360px;
         flex-wrap: wrap;
+        margin: 0 12px;
         justify-content: center;
         .featured-box{
             width: 366px;
