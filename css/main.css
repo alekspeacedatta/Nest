@@ -142,7 +142,7 @@ header{
                 align-items: center;
                 padding: 12px 0px;
                 .burger-menu-button{
-                    /* display: none; */
+                    display: none;
                     background-color: transparent;
                     border: none;
                     cursor: pointer;
@@ -558,6 +558,7 @@ main{
                 display: flex;
                 align-items: center;
                 justify-content: space-between;
+                gap: 10px;
                 h4{
                     width: 140px;
                     color: var(--heading-color);
@@ -866,14 +867,18 @@ main{
     }
 }
 .daily-best-sells{
-    display: flex;
+    display: none;
     flex-direction: column;
     gap: 43px;
+    padding-bottom: 50px;
     .daily-best-sells-nav{
         display: flex;
         justify-content: space-between;
         align-items: center;
-        
+        h4{
+            font-size: var(--fs-h4);
+            color: var(--heading-color);
+        }
         a{
             text-decoration: none;
             color: var(--heading-color);
