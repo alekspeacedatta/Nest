@@ -585,6 +585,56 @@ main{
                     }
                 }
             }
+            .boxs-conteiner {
+                width: 1280px;
+                display: flex;
+                align-items: center;
+                gap: 24px;
+                .box {
+                 width: 405px;
+                 height: 237px;
+                 border-radius: 10px;
+                 background-image: url(img/9245eacb0ea40bec876d1f6fef0f7a37.png);
+                 background-position:contain;
+                 background-position-x: -250px;
+                 display: flex;
+                 justify-content: center;
+                 flex-direction: column;
+                 object-fit: contain;
+                 .box-text {
+                     width: 203px;
+                     display: flex;
+                     flex-direction: column;
+                     gap: 28px;
+                     
+                     h5{
+                         font-size: 24px;
+                         color:#253D4E ;
+                     }
+                     button {
+                         width: 103px;
+                         height: 31px;
+                         color: white ;
+                         border-radius: 4px;
+                         background-color: #3BB77E;
+                         border: none;
+                         outline: none;
+                          cursor: pointer;
+                     }
+                 }
+                }
+                .box2 {
+                 background-image: url(img/b3a741ea7f4d7cecc6d5315cb77be123.png)
+                 
+                }
+              .box3 {
+                 background-image: url(img/b7fa6aea055c1b1a720c6a697bd7298a.png);
+                 justify-content: flex-start;
+                 h5 {
+                     margin-top: 40px;
+                 }
+              }
+             }
         }
         .deals-of-the-day{
             display: flex;
