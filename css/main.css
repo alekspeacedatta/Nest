@@ -632,11 +632,7 @@ main{
                     background-color: #FEEFEA;
                 }
             }
-            .offers-container{
-                display: flex;
-                align-items: center;
-                gap: 24px;
-            }
+            
         }
         .product-section{
             display: flex;
