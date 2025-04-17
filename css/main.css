@@ -423,6 +423,7 @@ main{
             }
             .fill-by-price{
                 height: 505px;
+                display: none;
                 .fill-by-price-content{
                     .range{
                         .range-text{
